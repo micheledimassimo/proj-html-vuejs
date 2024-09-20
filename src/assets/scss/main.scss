@@ -5,7 +5,10 @@
     max-width: 1000px;
     margin: 0 auto;
 }
-
+.container-sm {
+    max-width: 750px;
+    margin: 0 auto;
+}
 .my-row {
     display: flex;
     flex-wrap: wrap;

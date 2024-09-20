@@ -1,6 +1,8 @@
 <script>
 
 import AppHeader from './components/AppHeader.vue';
+import AppFirstSection from './components/AppFirstSection.vue';
+
 
 export default {
   data() {
@@ -10,7 +12,8 @@ export default {
   },
   
   components: {
-    AppHeader
+    AppHeader,
+    AppFirstSection
   },
   methods: {
     
@@ -24,8 +27,11 @@ export default {
     <AppHeader />
     
     <main>
-      
+
+      <AppFirstSection />
+
     </main>
+    
   </div>
 </template>
 
