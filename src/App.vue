@@ -2,6 +2,7 @@
 
 import AppHeader from './components/AppHeader.vue';
 import AppFirstSection from './components/AppFirstSection.vue';
+import AppSecondSection from './components/AppSecondSection.vue';
 
 
 export default {
@@ -13,7 +14,8 @@ export default {
   
   components: {
     AppHeader,
-    AppFirstSection
+    AppFirstSection,
+    AppSecondSection
   },
   methods: {
     
@@ -30,8 +32,10 @@ export default {
 
       <AppFirstSection />
 
+      <AppSecondSection />
+
     </main>
-    
+
   </div>
 </template>
 
