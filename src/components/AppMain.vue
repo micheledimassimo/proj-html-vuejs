@@ -1,5 +1,5 @@
 <script>
-import { store } from '/store.js';
+import { store } from '../store.js';
 
 import AppFirstSection from './main-components/AppFirstSection.vue';
 import AppSecondSection from './main-components/AppSecondSection.vue';

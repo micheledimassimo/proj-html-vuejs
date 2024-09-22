@@ -1,10 +1,8 @@
 <script>
-import { store } from '../store.js';
-
 export default {
   data() {
     return { 
-      store
+      
     }
   }
 }
@@ -15,8 +13,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/variables' as *;
-@use '../assets/scss/main' as *;
+@use '../../assets/scss/partials/variables.scss' as *;
+@use '../../assets/scss/main.scss' as *;
 
 
 </style>

@@ -1,16 +1,15 @@
 <script>
+import { store } from '../../store';
 export default {
   data() {
     return { 
-      formImg: '/images/home_img-compressor-400x222.jpg',
-      userName: '',
-      userMail: ''
+      store
     }
   },
   methods: {
     submitForm() {
-        console.log('userName:', this.userName);
-        console.log('userMail:', this.userMail);
+        console.log('userName:', this.store.userName);
+        console.log('userMail:', this.store.userMail);
     }
   }
 }
@@ -24,7 +23,7 @@ export default {
         <div class="container">
         <div class="my-row">
             <div class="my-col-1-2">
-                <img :src="formImg" alt="form image">
+                <img :src="store.formImg" alt="form image">
             </div>
             <div class="my-col-1-2">
                 <h4>
@@ -33,11 +32,11 @@ export default {
                 <form>
                     <div>
                         <label for="input-name">Name*</label>
-                        <input v-model="userName" type="text" id="input-name" required>
+                        <input v-model="store.userName" type="text" id="input-name" required>
                     </div>
                     <div>
                         <label for="input-mail">Email</label>
-                        <input v-model="userMail" type="text" id="input-mail" required>
+                        <input v-model="store.userMail" type="text" id="input-mail" required>
                     </div>
                     <button @click.prevent="submitForm()" class="my-btn" type="submit">
                         <a href="#">
