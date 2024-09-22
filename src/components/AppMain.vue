@@ -4,6 +4,8 @@ import { store } from '../store.js';
 import AppFirstSection from './main-components/AppFirstSection.vue';
 import AppSecondSection from './main-components/AppSecondSection.vue';
 import AppThirdSection from './main-components/AppThirdSection.vue';
+import AppFourthSection from './main-components/AppFourthSection.vue';
+
 
 
 export default {
@@ -15,7 +17,8 @@ export default {
   components: {
     AppFirstSection,
     AppSecondSection,
-    AppThirdSection
+    AppThirdSection,
+    AppFourthSection
   }
 }
 </script>
@@ -28,6 +31,9 @@ export default {
 
     <AppThirdSection />
 
+    <AppFourthSection />
+
+    
 </template>
 
 <style lang="scss" scoped>
