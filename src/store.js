@@ -36,5 +36,8 @@ export const store = reactive({
       logoImg: '/images/gym_logo_1x.png',
       formImg: '/images/home_img-compressor-400x222.jpg',
       userName: '',
-      userMail: ''
+      userMail: '',
+      doubleDivider: '/images/divider-xx-red.png',
+      singleDivider: '/images/divider-x-red.png',
+      doubleDividerWhite: '/images/divider-xx.png'
 });
