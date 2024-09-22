@@ -5,6 +5,9 @@ import AppFirstSection from './main-components/AppFirstSection.vue';
 import AppSecondSection from './main-components/AppSecondSection.vue';
 import AppThirdSection from './main-components/AppThirdSection.vue';
 import AppFourthSection from './main-components/AppFourthSection.vue';
+import AppFifhSection from './main-components/AppFifhSection.vue';
+import AppJumbotronQuote from './main-components/AppJumbotronQuote.vue';
+
 
 
 
@@ -18,7 +21,9 @@ export default {
     AppFirstSection,
     AppSecondSection,
     AppThirdSection,
-    AppFourthSection
+    AppFourthSection,
+    AppFifhSection,
+    AppJumbotronQuote
   }
 }
 </script>
@@ -33,7 +38,9 @@ export default {
 
     <AppFourthSection />
 
-    
+    <AppFifthSection />
+
+    <AppJumbotronQuote />
 </template>
 
 <style lang="scss" scoped>

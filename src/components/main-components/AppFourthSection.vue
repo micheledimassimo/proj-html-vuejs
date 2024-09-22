@@ -46,6 +46,7 @@ export default {
 section {
   background-color: $mainBgColor;
   text-align: center;
+  padding-bottom: 100px;
   h2 {
     color: white;
     text-transform: uppercase;
