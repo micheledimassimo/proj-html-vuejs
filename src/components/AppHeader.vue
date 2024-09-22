@@ -1,40 +1,10 @@
 <script>
+import { store } from '/store.js';
 export default {
   data() {
     return { 
-      navLinks: [
-        {
-            label: 'Home',
-            url: '#',
-            active: true
-        },
-        {
-            label: 'About Us',
-            url: '#',
-            active: false
-        },
-        {
-            label: 'Facilities',
-            url: '#',
-            active: false
-        },
-        {
-            label: 'Membership',
-            url: '#',
-            active: false
-        },
-        {
-            label: 'Testimonials',
-            url: '#',
-            active: false
-        },
-        {
-            label: 'Blog',
-            url: '#',
-            active: false
-        }
-      ],
-      logoImg: '/images/gym_logo_1x.png'
+      store,
+      
     }
   }
 }
@@ -43,10 +13,10 @@ export default {
 <template>
     <header>
         <div class="my-row justify-space-between">
-            <img :src="logoImg" alt="Avada Gym">
+            <img :src="store.logoImg" alt="Avada Gym">
             <nav>
                 <ul class="my-row">
-                    <li v-for="(link, i) in navLinks" :key="i">
+                    <li v-for="(link, i) in store.navLinks" :key="i">
                         <a
                         :class="{
                             'active': link.active

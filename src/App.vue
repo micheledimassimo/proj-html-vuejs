@@ -1,8 +1,8 @@
 <script>
 
 import AppHeader from './components/AppHeader.vue';
-import AppFirstSection from './components/AppFirstSection.vue';
-import AppSecondSection from './components/AppSecondSection.vue';
+import AppMain from './components/AppMain.vue';
+
 
 
 export default {
@@ -14,8 +14,7 @@ export default {
   
   components: {
     AppHeader,
-    AppFirstSection,
-    AppSecondSection
+    AppMain
   },
   methods: {
     
@@ -30,9 +29,7 @@ export default {
     
     <main>
 
-      <AppFirstSection />
-
-      <AppSecondSection />
+      <AppMain />
 
     </main>
 
