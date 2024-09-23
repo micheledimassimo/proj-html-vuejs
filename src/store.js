@@ -1,7 +1,7 @@
 import { reactive } from 'vue';
 
 export const store = reactive({
-    navLinks: [
+      navLinks: [
         {
             label: 'Home',
             url: '#',
@@ -54,6 +54,14 @@ export const store = reactive({
             quote: '"No bad things to say about Avada Gym, they are top notch at every corner and truly take care of their costumers"',
             memberName: 'Jeff Glum'
         },
+      ],
+      facilitiesPhotos: [
+        '/images/home-image1.jpg',
+        '/images/home-image2.jpg',
+        '/images/home-image3.jpg',
+        '/images/home-image4.jpg',
+        '/images/home-image5.jpg',
+        '/images/home-image6.jpg'
       ],
       logoImg: '/images/gym_logo_1x.png',
       formImg: '/images/home_img-compressor-400x222.jpg',
