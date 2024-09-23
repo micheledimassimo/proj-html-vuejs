@@ -47,11 +47,13 @@ section {
         .my-col-1-3 {
           width: calc(100% / 3);
           padding: 10px;
-          transition: 1s ease-in-out;
+          
 
           &:hover {
             img {
-              transform: scale(1.2);
+              transform: scale(1.5);
+              transition: 1s ease-in-out;
+              cursor: pointer;
             }
           }
         }

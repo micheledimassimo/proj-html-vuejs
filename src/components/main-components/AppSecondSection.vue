@@ -8,9 +8,14 @@ export default {
   },
   methods: {
     submitForm() {
-        console.log('userName:', this.store.userName);
-        console.log('userMail:', this.store.userMail);
-        alert('Thank You for signing up! See you soon')
+        if ((this.store.userName != '') && (this.store.userMail != '')) {
+            console.log('userName:', this.store.userName);
+            console.log('userMail:', this.store.userMail);
+            alert('Thank You for signing up! See you soon');
+        }
+        else {
+            return alert('Fill the form');
+        }
     }
   }
 }

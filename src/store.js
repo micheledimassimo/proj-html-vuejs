@@ -63,6 +63,23 @@ export const store = reactive({
         '/images/home-image5.jpg',
         '/images/home-image6.jpg'
       ],
+      trainerInfo: [
+        {
+            image: '/images/trainer1-400x297.jpg',
+            trainerName: 'Ann Baker',
+            job: 'Personal Trainer'
+        },
+        {
+            image: '/images/trainer3-400x297.jpg',
+            trainerName: 'Anne Warren',
+            job: 'Personal Trainer'
+        },
+        {
+            image: '/images/trainer4-400x297.jpg',
+            trainerName: 'Peter Rice',
+            job: 'Personal Trainer'
+        }
+      ],
       logoImg: '/images/gym_logo_1x.png',
       formImg: '/images/home_img-compressor-400x222.jpg',
       userName: '',
