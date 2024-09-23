@@ -5,6 +5,11 @@ export default {
     return { 
       store
     }
+  },
+  methods: {
+    clickedBtn() {
+        alert('Sign up with the form below')
+    }
   }
 }
 </script>
@@ -35,7 +40,7 @@ export default {
                 <p>
                     Motivation is what gets you started. Habit is what keeps you going
                 </p>
-                <button class="my-btn">
+                <button @click="clickedBtn()" class="my-btn">
                     <a href="#">
                         Join us today
                     </a>

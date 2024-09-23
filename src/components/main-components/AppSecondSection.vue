@@ -10,6 +10,7 @@ export default {
     submitForm() {
         console.log('userName:', this.store.userName);
         console.log('userMail:', this.store.userMail);
+        alert('Thank You for signing up! See you soon')
     }
   }
 }
