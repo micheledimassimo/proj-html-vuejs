@@ -35,7 +35,6 @@ export default {
 
 section {
     background-color: $mainBgColor;
-    text-align: center;
 }
 .container-sm {
     h3 {

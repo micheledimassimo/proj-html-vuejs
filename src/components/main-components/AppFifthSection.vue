@@ -33,7 +33,6 @@ export default {
 
 section {
     background-color: $mainBgColor;
-    text-align: center;
     padding: 100px 20px;
     h3 {
         color: white;

@@ -69,7 +69,6 @@ export default {
 
 section {
     background-color: $mainBgColorDarker;
-    text-align: center;
     h3 {
         padding: 150px 0 30px;
         color: white;
@@ -136,15 +135,5 @@ section {
         }
     }
 }
-.my-btn {
-    cursor: pointer;
-    padding: 10px 20px;
-    border: 1px solid $colorGray;
-    background-color: transparent;
-    > a {
-        text-decoration: none;
-        text-transform: uppercase;
-        color: $colorGray;
-    }
-}
+
 </style>

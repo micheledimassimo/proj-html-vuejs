@@ -91,7 +91,6 @@ export default {
 @use '../../assets/scss/main.scss' as *;
 
 section {
-  text-align: center;
   background-image: url('../../../images/gym_bkgd_bw-compressor.jpg');
   .container {
     padding: 20px;

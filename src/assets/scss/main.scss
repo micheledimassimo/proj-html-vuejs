@@ -1,3 +1,4 @@
+@use 'partials/variables.scss' as *;
 /* 
     GENERAL
 */
@@ -13,20 +14,30 @@
     display: flex;
     flex-wrap: wrap;
 }
-/* .my.col-1-2 {
-    width: 50%;
-} */
+
 .justify-space-between {
     justify-content: space-between;
 }
 /* 
     APP
 */
-main {
+section {
   text-align: center;
 }
 
 img {
     max-width: 100%;
     object-fit: cover;
+}
+
+.my-btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid $colorGray;
+    background-color: transparent;
+    > a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $colorGray;
+    }
 }

@@ -8,6 +8,8 @@ import AppFourthSection from './main-components/AppFourthSection.vue';
 import AppFifthSection from './main-components/AppFifthSection.vue';
 import AppSixthSection from './main-components/AppSixthSection.vue';
 import AppJumbotronQuote from './main-components/AppJumbotronQuote.vue';
+import AppSeventhSection from './main-components/AppSeventhSection.vue';
+import AppEigthSection from './main-components/AppEigthSection.vue';
 
 
 
@@ -25,7 +27,9 @@ export default {
     AppFourthSection,
     AppFifthSection,
     AppSixthSection,
-    AppJumbotronQuote
+    AppJumbotronQuote,
+    AppSeventhSection,
+    AppEigthSection
   }
 }
 </script>
@@ -45,6 +49,10 @@ export default {
     <AppJumbotronQuote />
 
     <AppSixthSection />
+
+    <AppSeventhSection />
+
+    <AppEigthSection />
 </template>
 
 <style lang="scss" scoped>

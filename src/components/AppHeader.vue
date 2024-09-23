@@ -98,15 +98,6 @@ header {
   }
 }
 
-.my-btn {
-    cursor: pointer;
-    padding: 10px 20px;
-    border: 1px solid $colorGray;
-    background-color: transparent;
-    > a {
-        text-decoration: none;
-        color: $colorGray;
-    }
-}
+
 
 </style>
