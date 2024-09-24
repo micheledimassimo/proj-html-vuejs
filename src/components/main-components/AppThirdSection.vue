@@ -17,7 +17,7 @@ export default {
             <div>
                 <span class="fa-stack fa-2x">
                   <i class="fa-regular fa-circle fa-stack-2x"></i>
-                  <i class="fa-solid fa-dumbbell fa-stack-1x"></i>
+                  <i class="fa-solid fa-link-slash fa-stack-1x"></i>
                 </span>
             </div>
             <h5>
@@ -51,7 +51,7 @@ export default {
             <div>
                 <span class="fa-stack fa-2x">
                   <i class="fa-regular fa-circle fa-stack-2x"></i>
-                  <i class="fa-solid fa-infinity fa-stack-1x"></i>
+                  <i class="fa-brands fa-skyatlas fa-stack-1x"></i>
                 </span>
             </div>
             <h5>
@@ -110,6 +110,14 @@ section {
         p {
           margin: 20px 10px;
           color: $colorGray;
+        }
+        &:hover {
+          transition: .3s ease-in-out;
+          transform: scale(1.3);
+          cursor: pointer;
+          h5 {
+            color: $mainColor;
+          }
         }
       }
     }

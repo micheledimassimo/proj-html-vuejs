@@ -45,13 +45,13 @@ section {
       .my-row {
         .my-col-1-3 {
           width: calc(100% / 3);
-          padding: 10px;
+          padding: 20px;
           
 
           &:hover {
             img {
-              transform: scale(1.5);
-              transition: 1s ease-in-out;
+              transform: scale(1.1);
+              transition: .5s ease-in-out;
               cursor: pointer;
             }
           }

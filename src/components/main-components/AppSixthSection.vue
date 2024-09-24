@@ -81,15 +81,16 @@ section {
             padding-bottom: 50px;
             .my-col-1-3 {
                 width: calc(100% / 3);
-                padding: 10px;
+                padding: 15px;
                 .card-container {
                     
                     > img {
                             display: block;
                             &:hover {
-                                transform: scale(1.2);
+                                transform: scale(1.1);
                                 transition: .5s ease-in;
                                 cursor: pointer;
+                                
                             }
                         }
                     .info-trainer {
