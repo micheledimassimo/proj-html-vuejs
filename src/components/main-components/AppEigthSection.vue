@@ -41,7 +41,7 @@ section {
   background-position: 100% 30%;
   .container {
     .my-row {
-      padding: 40px 0;
+      padding: 40px 20px;
       align-items: center;
       .my-col {
         flex-grow: 1;

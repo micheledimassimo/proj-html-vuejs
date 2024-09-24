@@ -91,6 +91,7 @@ section {
             
             &:hover {
               opacity: 0.75;
+              cursor: pointer;
             }
             > span {
               color: white;
@@ -107,7 +108,11 @@ section {
           color: white;
           opacity: 0.9;
           font-size: 1.5rem;
-          padding: 10px 0
+          padding: 10px 0;
+          &:hover {
+            cursor: pointer;
+            color: $mainColor;
+          }
           }
           p {
             color: lightgray;
